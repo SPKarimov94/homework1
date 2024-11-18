@@ -5,6 +5,7 @@ public class Main {
     {
         System.out.println("Hello world!");
         sum();
+        multiply();
     }
 
 
@@ -12,4 +13,10 @@ public class Main {
         int sum = 5 + 1;
         System.out.println(sum);
     }
+
+    public static void multiply() {
+        int multiply = 5 * 2;
+        System.out.println(multiply);
+    }
+
 }
